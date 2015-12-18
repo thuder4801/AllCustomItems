@@ -12,6 +12,7 @@
 		FF1F18E41C23E6F900DB9835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1F18E21C23E6F900DB9835 /* Main.storyboard */; };
 		FF1F18E61C23E6F900DB9835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1F18E51C23E6F900DB9835 /* Assets.xcassets */; };
 		FF1F18E91C23E6F900DB9835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1F18E71C23E6F900DB9835 /* LaunchScreen.storyboard */; };
+		FF1F18F71C23EB2500DB9835 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1F18F61C23EB2500DB9835 /* PopUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FF1F18E51C23E6F900DB9835 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF1F18E81C23E6F900DB9835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF1F18EA1C23E6F900DB9835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1F18F61C23EB2500DB9835 /* PopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,10 @@
 		FF1F18DD1C23E6F900DB9835 /* AllCustomItems */ = {
 			isa = PBXGroup;
 			children = (
+				FF1F18F31C23E70A00DB9835 /* Service */,
+				FF1F18F21C23E70900DB9835 /* Model */,
+				FF1F18F11C23E70700DB9835 /* View */,
+				FF1F18F01C23E70500DB9835 /* Controller */,
 				FF1F18DE1C23E6F900DB9835 /* AppDelegate.swift */,
 				FF1F18E01C23E6F900DB9835 /* ViewController.swift */,
 				FF1F18E21C23E6F900DB9835 /* Main.storyboard */,
@@ -62,6 +68,35 @@
 				FF1F18EA1C23E6F900DB9835 /* Info.plist */,
 			);
 			path = AllCustomItems;
+			sourceTree = "<group>";
+		};
+		FF1F18F01C23E70500DB9835 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FF1F18F11C23E70700DB9835 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF1F18F61C23EB2500DB9835 /* PopUpView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FF1F18F21C23E70900DB9835 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FF1F18F31C23E70A00DB9835 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF1F18F71C23EB2500DB9835 /* PopUpView.swift in Sources */,
 				FF1F18E11C23E6F900DB9835 /* ViewController.swift in Sources */,
 				FF1F18DF1C23E6F900DB9835 /* AppDelegate.swift in Sources */,
 			);
